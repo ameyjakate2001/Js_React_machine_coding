@@ -1,0 +1,12 @@
+.folder {
+  background: rgb(182, 177, 177);
+  margin-top: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.folder span {
+  font-size: 1.2rem;
+}
