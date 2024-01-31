@@ -1,0 +1,58 @@
+.transfer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.list {
+  min-height: 200px;
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list h2 {
+  margin-bottom: 10px;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.list li.selected {
+  background-color: #a5d8ff;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

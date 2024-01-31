@@ -1,0 +1,31 @@
+#container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.inputs {
+    text-align: center;
+}
+
+.input {
+    border: none;
+    border-bottom: 3px solid grey;
+    width: 40px;
+    font-size: 30px;
+    text-align: center;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.input:focus {
+    outline: none;
+    border-bottom: 3px solid #985004;
+}
+
+.input:nth-child(1) {
+    cursor: pointer;
+    pointer-events: auto;
+}
