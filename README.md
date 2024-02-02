@@ -7,3 +7,4 @@ nested comments : https://89lmh2.csb.app/
 File explorer : https://q9d6nw.csb.app/
 Pagination : https://d4dpfp.csb.app/
 Password generator : https://6sllcr.csb.app/
+Multi Select input : https://wj4ppg.csb.app/
